@@ -25,10 +25,17 @@ a {
 
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
 nav .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #ebf0fc;
     border-bottom: 2px solid #00000025;
     padding: 10px;
 }
@@ -138,4 +145,36 @@ nav .wrapper .cart>img {
     100% {
         transform: translateY(2px);
     }
+}
+
+marquee {
+    border: 1px solid #000;
+}
+
+marquee .marquee-adds {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 6px;
+}
+
+.marquee-adds p {
+    font-size: 50px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    -webkit-text-fill-color: white;
+    text-shadow: -1px -1px 0 #16191c, 1px -1px 0 #16191c, -1px 1px 0 #16191c, 1px 1px 0 #16191c;
+    position: relative;
+}
+
+.marquee-adds p::after {
+    content: "-";
+    position: absolute;
+    font-size: 50px;
+    -webkit-text-fill-color: white;
+    text-shadow: -1px -1px 0 #16191c, 1px -1px 0 #16191c, -1px 1px 0 #16191c, 1px 1px 0 #16191c;
+    left: -15px;
+}
+
+.marquee-adds p:first-child:after {
+    content: "";
 }
