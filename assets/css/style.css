@@ -69,7 +69,7 @@ nav .wrapper .manus ul li a::after {
     height: 1.7px;
     width: 0%;
     background: #000;
-    transition: all .3s ;
+    transition: all .3s;
 }
 
 nav .wrapper .manus ul li a:hover::after {
@@ -97,4 +97,45 @@ nav .wrapper .cart .search img {
 
 nav .wrapper .cart>img {
     width: 35px;
+}
+
+/* hero-banner */
+.hero-banner {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+
+
+.hero-banner img {
+    max-width: 102%;
+    display: block;
+    animation: marquee 20s linear infinite;
+
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateY(2px);
+    }
+
+    25% {
+        transform: translateX(-13px);
+    }
+
+    50% {
+        transform: translateY(-13px);
+
+    }
+
+    75% {
+        transform: translateX(0px);
+
+    }
+
+    100% {
+        transform: translateY(2px);
+    }
 }
