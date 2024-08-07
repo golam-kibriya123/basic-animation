@@ -351,3 +351,76 @@ marquee .marquee-adds {
     padding: 50px;
     color: #fff;
 }
+
+.marquee-adds-2 p {
+    border: 1px solid peru;
+    background: hsla(94, 4%, 35%, 0.422);
+}
+
+.marquee-adds-2 p::after {
+    content: "";
+}
+
+/* feed-back-section */
+.feed-back-section h2 {
+    font-size: 40px;
+    margin: 60px 0;
+    text-align: center;
+    color: #f57070;
+}
+
+.feed-backs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.feed-backs .feed-back {
+
+    flex-basis: 26%;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.feed-backs .feed-back p {
+    line-height: 1.5;
+}
+
+.feed-backs .feed-back .client {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 20px;
+    padding: 15px 0;
+    gap: 20px;
+}
+
+.feed-backs .feed-back .client img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feed-backs .feed-back .client span {
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.feed-backs .feed-back:nth-child(1) {
+    background: #a4d053;
+    transform: rotate(1deg);
+}
+
+.feed-backs .feed-back:nth-child(2) {
+    background: #f49999;
+    transform: rotate(-3deg);
+}
+
+.feed-backs .feed-back:nth-child(3) {
+    background: #bbc864;
+    transform: rotate(3deg);
+}
