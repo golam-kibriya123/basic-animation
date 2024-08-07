@@ -267,7 +267,8 @@ marquee .marquee-adds {
 .gem-page-template .gem-pages {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center; justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .gem-page-template .gem-pages .gem-page {
@@ -299,4 +300,40 @@ marquee .marquee-adds {
     margin: 10px 0;
 }
 
-.gem-page-template .gem-pages .gem-page {}
+/* theme-demo */
+.theme-demo {
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theme-demo .part-1 {
+    border-radius: 50px;
+    padding: 30px;
+    flex-basis: 45%;
+    box-shadow: 10px 10px 0px #c6c2c2;
+}
+
+.theme-demo .part-1 img {
+    max-width: 100%;
+
+}
+
+.theme-demo .part-1 p {
+    border-left: 1px solid #000;
+    padding: 20px 0 20px 20px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #787474;
+    font-size: 18px;
+}
+
+.theme-demo .part-2 {
+    flex-basis: 45%;
+}
+
+.theme-demo .part-2 h2 {
+    font-size: 50px;
+    text-align: start;
+}
