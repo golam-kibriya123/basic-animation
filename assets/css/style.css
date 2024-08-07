@@ -71,11 +71,11 @@ nav .wrapper .manus ul li {
     display: block;
 }
 
-nav .wrapper .manus ul li a {
+.manus ul li a {
     position: relative;
 }
 
-nav .wrapper .manus ul li a::after {
+.manus ul li a::after {
     content: "";
     position: absolute;
     bottom: -2px;
@@ -86,7 +86,7 @@ nav .wrapper .manus ul li a::after {
     transition: all .3s;
 }
 
-nav .wrapper .manus ul li a:hover::after {
+.manus ul li a:hover::after {
     width: 100%;
 }
 
@@ -423,4 +423,47 @@ marquee .marquee-adds {
 .feed-backs .feed-back:nth-child(3) {
     background: #bbc864;
     transform: rotate(3deg);
+}
+
+footer {
+    background-color: #000;
+    color: #747171;
+}
+
+footer .row {
+    padding: 50px 100px;
+    display: flex;
+    align-items: start;
+}
+
+footer .row .col {
+    flex-basis: 33%;
+}
+
+footer .row .col h2 {
+    color: #ffffff;
+    margin-bottom: 40px;
+
+
+}
+
+
+
+footer .row .col ul {
+    list-style: none;
+}
+
+footer .row .col ul li {
+    margin: 10px 0;
+}
+
+footer .row .col ul li a {
+    color: #747171;
+}
+
+
+
+footer .copyright {
+    border-top: 1px solid #7a7a7a;
+    padding: 30px 100px;
 }
