@@ -25,6 +25,13 @@ a {
 
 }
 
+.container-mini {
+    width: 90%;
+    margin-top: auto;
+    margin: 0 auto;
+
+}
+
 nav {
     position: sticky;
     top: 0;
@@ -178,3 +185,118 @@ marquee .marquee-adds {
 .marquee-adds p:first-child:after {
     content: "";
 }
+
+/*  page-boulder */
+.page-boulder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px 0;
+
+
+}
+
+.page-boulder .page-boulder-info {
+    flex-basis: 45%;
+    height: 100%;
+    background-color: #ebf0fc;
+    padding: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.page-boulder .page-boulder-info h2 {
+    font-size: 40px;
+}
+
+.page-boulder .page-boulder-info h3 {
+    font-weight: 100;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.page-boulder .page-boulder-info p {
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+
+.page-boulder .page-boulder-info .sop-naw-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.page-boulder .page-boulder-info .sop-naw-btn img {
+    width: 20px;
+}
+
+.page-boulder .page-boulder-info .sop-naw-btn a {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.page-boulder-video {
+    flex-basis: 45%;
+    border-radius: 20px;
+
+
+}
+
+.page-boulder-video iframe {
+
+    border-radius: 20px;
+}
+
+/* gem-page-template */
+.gem-page-template {
+    padding: 70px 0px;
+    background-color: #ebf0fc;
+}
+
+.gem-page-template h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.gem-page-template .gem-pages {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center; justify-content: center;
+}
+
+.gem-page-template .gem-pages .gem-page {
+
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0 10px;
+    flex-basis: 18%;
+    background: #fff;
+    aspect-ratio: 10/12;
+
+}
+
+.gem-page-template .gem-pages .gem-page img {
+    max-width: 100%;
+    aspect-ratio: 10/10;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.gem-page-template .gem-pages .gem-page h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.gem-page-template .gem-pages .gem-page p {
+    margin: 10px 0;
+}
+
+.gem-page-template .gem-pages .gem-page {}
